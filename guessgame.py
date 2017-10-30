@@ -7,7 +7,10 @@
 from random import randint
 
 MIN = 1
-MAX = 200000
+MAX = 20
 
 targetNumber = randint(MIN, MAX)
-print(targetNumber)
+
+prompt = ('Please guess a number from ' + str(MIN) + ' to ' + str(MAX) + ': ')
+guess = int(input(prompt))
+print(guess)
