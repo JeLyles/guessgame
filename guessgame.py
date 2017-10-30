@@ -7,7 +7,7 @@
 from random import randint
 
 MIN = 1
-MAX = 20
+MAX = 200000
 
 targetNumber = randint(MIN, MAX)
 print(targetNumber)
